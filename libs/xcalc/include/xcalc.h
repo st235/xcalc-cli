@@ -3,9 +3,11 @@
 
 #include <string>
 
+#include "DegreeMode.h"
+
 namespace xcalc {
 
-    std::string evaluate(const std::string& input);
+    std::string evaluate(DegreeMode degreeMode, const std::string& input);
 
 } // namespace xcalc
 
